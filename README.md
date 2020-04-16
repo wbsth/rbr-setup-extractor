@@ -1,5 +1,5 @@
 # RBR Setup Extractor
-Tool for extracting setups from Richard Burns Rally replays.
+Tool for extracting car setups from Richard Burns Rally replays.
 
 ### Usage
 ```
