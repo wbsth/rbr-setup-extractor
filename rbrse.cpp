@@ -3,11 +3,6 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-//#include <iterator>
-
-// rbr setup extractor
-// find beginning of the setup
-// find end of the setup
 
 int main(int argc, char *argv[])
 {
@@ -55,7 +50,7 @@ int main(int argc, char *argv[])
             auto set_end = std::search(buffer.begin(), buffer.end(), wanted_end.begin(), wanted_end.end());
 
             // if start and end of the setup were found 
-            if (true) //set_beg != buffer.end() && set_end != buffer.end()
+            if (set_beg != buffer.end() && set_end != buffer.end()) 
             {
                 // calculate vector indexes of the begging and end of the setup
                 start_pos = std::distance(buffer.begin(), set_beg);
